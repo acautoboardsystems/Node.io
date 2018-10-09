@@ -1,0 +1,3247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fieldSets>
+        <fullName>MC4SF__Contact_Filter_Fields</fullName>
+        <description>used on the MailChimp query builder</description>
+        <displayedFields>
+            <field>AssistantName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AssistantPhone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Birthdate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Fax</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Phone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Department</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>DoNotCall</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Email</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HasOptedOutOfFax</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FirstName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HomePhone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastActivityDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastCURequestDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastCUUpdateDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LeadSource</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingCity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingCountry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingState</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingStreet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingPostalCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MobilePhone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OtherCity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OtherCountry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OtherPhone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OtherState</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OtherStreet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OtherPostalCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Salutation</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Contact Filter Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>nde__Node_Fields</fullName>
+        <description>For Node Sales Analyst</description>
+        <displayedFields>
+            <field>nde__Node_Context__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__You_Should_Mention__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Generated__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Generated_Formula__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Priority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Priority_Formula__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Internal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Context_Formula__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Last_Modified_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Technologies_Found__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Available_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Former_Customer_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Subcategory_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_City_and_Subcategory_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_City_and_Category_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Best_Matches_Context__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Best_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_Country__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_City__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_Zip__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Global_Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Global_Parent_Lookup__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Primary_Domain__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Primary_Company_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Target_Profile__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_NAICS_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_NAICS_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Keywords__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Node Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>AADO__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Account_Development_Owner__r.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AADO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ALink__c</fullName>
+        <description>Field created for Integration, will stay hidden from the layout.</description>
+        <externalId>false</externalId>
+        <formula>&quot;https://na31.salesforce.com/&quot;+ AccountId</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ALink</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account_Development_Owner__c</fullName>
+        <description>Field created for Integration, will stay hidden from the layout.</description>
+        <externalId>false</externalId>
+        <formula>Account.Account_Development_Owner__r.FirstName + &quot; &quot; +  Account.Account_Development_Owner__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Development Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Owner__c</fullName>
+        <description>Field created for Integration, will stay hidden from the layout.</description>
+        <externalId>false</externalId>
+        <formula>Account.Owner.FirstName &amp; &quot; &quot; &amp; Account.Owner.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Account_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account.Account_Status__c)</formula>
+        <label>Account Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Accounts_Account_Development_Owner__c</fullName>
+        <externalId>false</externalId>
+        <label>Accounts Account Development Owner</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Active_Contact_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner.IsActive</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Active Contact Owner</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Actively_Being_Sequenced__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>True/False Value for checkbox</description>
+        <externalId>false</externalId>
+        <label>Actively Being Sequenced</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AssistantName</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AssistantPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Became_MQL_Date__c</fullName>
+        <description>Date that lead hit MQL criteria in Hubspot</description>
+        <externalId>false</externalId>
+        <label>Became MQL Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Birthdate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CLink__c</fullName>
+        <description>Field created for Integration, will stay hidden from the layout.</description>
+        <externalId>false</externalId>
+        <formula>&quot;https://na31.salesforce.com/&quot;+Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CLink</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Company_Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Company Size</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1-10</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>10-50</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>50-200</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>200-500</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>500-1,000</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>1,000-5,000</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5,000-10,000</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>10,000+</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_Custom_Tags__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Custom Tags</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>FirstName + &quot; &quot; +LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Full Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_No_Activity_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY() -  LastActivityDate</formula>
+        <label>Contact No Activity Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_Sequenced_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Sequenced Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-MQL</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>MQL</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Engaged</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Timing - Future Opportunity</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SQL</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>In Sequence</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Response</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Disqualified</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Added to Existing Account - Not in Sequence</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Bad Data - No Longer at Company</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Bad Data - Other</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Bad Data - Wrong Contact Info</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Completed Sequence and Unresponsive</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted - CAS</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted - In Sequence</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted and Disqualified - No Budget</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted and Disqualified - Not the Right Person</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted and Disqualified - Not the Right Time</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted and Disqualified - Other</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted and Disqualified - Prefers Existing Solution</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted and Disqualified - Product Does Not Fit Need</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted and Disqualified - Unresponsive</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Contacted and Sales Qualified - New Opportunity</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Do Not Contact - Blacklisted</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Do Not Contact - Unsubscribed</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Manual_Finish_and_Unresponsive</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Marketing Qualified</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Not Contacted and Disqualified - Not a Valid Title</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Not Contacted and Disqualified - Not in Target Market</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Not in Outbound Funnel</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Sales Qualified</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Sales Ready</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Sales Ready - In Sequence</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Sales Ready - Not in Sequence</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Created_by_Role_Static__c</fullName>
+        <externalId>false</externalId>
+        <label>Created by Role (Static)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Prospect_Stage__c</fullName>
+        <description>Cold/Not Started, Approaching, Replied, etc.</description>
+        <externalId>false</externalId>
+        <label>Current Prospect Stage</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Sequence_Name__c</fullName>
+        <description>Current Sequence Name in Outreach</description>
+        <externalId>false</externalId>
+        <label>Current Sequence Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Sequence_Start_Date__c</fullName>
+        <description>Set up WFR to assign date based on when the “Actively Being Sequenced” box is checked</description>
+        <externalId>false</externalId>
+        <label>Current Sequence Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Current_Sequence_Step_Number__c</fullName>
+        <description>Number of Sequence Step</description>
+        <externalId>false</externalId>
+        <label>Current Sequence Step Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Sequence_Step_Type__c</fullName>
+        <description>auto_email, manual_email, call, task</description>
+        <externalId>false</externalId>
+        <label>Current Sequence Step Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Sequence_Task_Due_Date__c</fullName>
+        <description>Due date of task (10/18/2016 11:28 AM)</description>
+        <externalId>false</externalId>
+        <label>Current Sequence Task Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Department</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Disqualified_Reason_Detail__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe why a prospect is unqualified (provide as much detail as you can). If unqualified now but potentially a fit for the future, set a reminder task to re-engage at a future date.</inlineHelpText>
+        <label>Disqualified Reason Detail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Disqualified_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Disqualified Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Contact_Status__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product Does Not Fit Need</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Prefers Existing Solution</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not the Right Person</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Budget</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not a Valid Title</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not in Target Market</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bad Data</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Do Not Contact - Blacklisted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Do Not Contact - Unsubscribed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lost Opportunity</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Non-Sales Contact (Admin Use Only)</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Product Does Not Fit Need</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Prefers Existing Solution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Not the Right Person</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>No Budget</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Not a Valid Title</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Not in Target Market</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Bad Data</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Do Not Contact - Blacklisted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Do Not Contact - Unsubscribed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Lost Opportunity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disqualified</controllingFieldValue>
+                <valueName>Non-Sales Contact (Admin Use Only)</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Follow_Up_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Follow Up Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Function__c</fullName>
+        <externalId>false</externalId>
+        <label>Function</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Business Development</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Customer Support</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Engineering</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Funnel_Grade__c</fullName>
+        <externalId>false</externalId>
+        <label>Funnel Grade</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HomePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HubSpot_Lifecycle_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>HubSpot Lifecycle Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Subscriber</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lead</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Marketing Qualified Lead</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sales Qualified Lead</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Opportunity</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Evangelist</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ICP_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>ICP Completion Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>IST_Data_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>IST Data Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Enhanced</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sourced</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LID__LinkedIn_Company_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>LinkedIn Id of the company</description>
+        <externalId>false</externalId>
+        <label>LinkedIn Company Id</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LID__LinkedIn_Member_Token__c</fullName>
+        <deprecated>false</deprecated>
+        <description>LinkedIn Id of the contact</description>
+        <externalId>false</externalId>
+        <label>LinkedIn Member Token</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastCURequestDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LastCUUpdateDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Last_Activity_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>LastActivityDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last Activity Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <inlineHelpText>This is the action the prospect took to submit their contact information.</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Class__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Class</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inbound</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SDR Outbound</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>AE Outbound</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Outbound</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lead_Source_Detail__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Source Detail</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MC4SF__MC_Subscriber__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MC Subscriber</label>
+        <referenceTo>MC4SF__MC_Subscriber__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MailingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Node_Account_Owner__c</fullName>
+        <description>Account Owner as per SFDC assignment</description>
+        <externalId>false</externalId>
+        <formula>Account.Owner.FirstName &amp; &quot; &quot; &amp; Account.Owner.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Node Account Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Node_Company_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Node Company Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Onboarding_Session__c</fullName>
+        <externalId>false</externalId>
+        <label>Onboarding Session</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Onboarding__c</fullName>
+        <externalId>false</externalId>
+        <label>Onboarding Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Introduction</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Email workflow</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OtherAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OtherPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Out_of_Sequence_Date__c</fullName>
+        <description>The most recent date a contact has been pulled from the sequence.</description>
+        <externalId>false</externalId>
+        <label>Out of Sequence Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Phone_Email__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the breakdown of time spent on the phone and email.</inlineHelpText>
+        <label>Phone/Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10/90</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>20/80</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>30/70</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>40/60</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>50/50</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>60/40</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>70/30</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>80/20</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>90/10</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>100/0</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Qualification_Notes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Business needs - focus on those that your solution(s) can support 
+Urgency - specific event(s) or tangible impact(s) that demonstrate(s) urgency 
+Money - is it available? who controls it? how is allocation determined? 
+Authority - who decides/influence</inlineHelpText>
+        <label>Qualification Notes</label>
+        <length>5000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ReportsToId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Secondary_Lead_Source__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The source from which the prospect came to submit their contact information (as determined by Primary Lead Source).</inlineHelpText>
+        <label>Secondary Lead Source</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Organic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Direct</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LinkedIn Ads</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Facebook Ads</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Google AdWords</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Website Referral</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Partner Referral</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Customer Referral</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Conference</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Hosted Event</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Node</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>List Purchase</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LinkedIn Sales Navigator</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Intra-Account Referral</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Seniority__c</fullName>
+        <description>This defines the role of the individual within the organization. This is our internal nomenclature for sales and marketing.</description>
+        <externalId>false</externalId>
+        <label>Seniority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CxO</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>VP</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Director</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Manager</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Individual Contributor</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Trial Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Target_Regions__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Regions</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alabama</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Alaska</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Arizona</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Arkansas</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>California</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Colorado</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Connecticut</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Delaware</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Florida</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Georgia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Hawaii</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Idaho</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Illinois</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Indiana</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Iowa</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kansas</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Kentucky</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Louisiana</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Maine</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Maryland</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Massachusetts</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Michigan</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Minnesota</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mississippi</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Missouri</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Montana</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nebraska</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Nevada</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>New Hampshire</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>New Jersey</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>New Mexico</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>New York</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>North Carolina</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>North Dakota</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ohio</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Oklahoma</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Oregon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pennsylvania</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Rhode Island</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>South Carolina</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>South Dakota</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tennessee</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Texas</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Utah</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Vermont</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Virginia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Washington</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>West Virginia</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Wisconsin</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Wyoming</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Territory__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This describes the meta level method for territory assignment</inlineHelpText>
+        <label>Territory Segmentation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Industry</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Geography</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Account Name</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Employee Size</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Revenue Range</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Time_Zone__c</fullName>
+        <externalId>false</externalId>
+        <label>Time Zone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pacific</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Eastern</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Central</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>International</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <inlineHelpText>Title should be written out as complete as possible. This will provide future insights regarding seniority/role and conversion rates.</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Unqualified_Reason_Detail__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe why a prospect is unqualified (provide as much detail as you can). If unqualified now but potentially a fit for the future, set a reminder task to re-engage at a future date.</inlineHelpText>
+        <label>Unqualified Reason Detail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Unqualified_Reason__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Not a Business Priority = No need or urgency for Node. Product Not a Fit = Not feasible solution (e.g. not SFDC customer). No Budget = Budget not in ballpark. No Authority = Not able to decide or influence decision to purchase.</inlineHelpText>
+        <label>Unqualified Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not a Business Priority</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Product Not a Fit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Budget</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Authority</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cas__ContactStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact Status (Future Use - Do Not Use)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Do Not Call</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Contacted - Qualifying</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not Contacted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Contacted - Disqualified</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Contacted - Incorrect Data</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Former Customer</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cas__FirstAttempt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>First Attempt</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>cas__First_Conversation_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>CAS First Conversation Date</description>
+        <externalId>false</externalId>
+        <label>First Conversation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>cas__LastAttempt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Attempt</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>cas__LastConnect__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Conversation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>cas__List_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>CAS LIst Name</description>
+        <externalId>false</externalId>
+        <label>List Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cas__Most_Recent_Attempt_Disposition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To store attempt disposition for each call through CAS</description>
+        <externalId>false</externalId>
+        <label>Most Recent Attempt Disposition</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cas__Most_Recent_Conversation_Disposition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To store disposition selected by pitcher through CAS</description>
+        <externalId>false</externalId>
+        <label>Most Recent Conversation Disposition</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cas__Most_Recent_Disposition__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Most Recent Disposition</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Conversation</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DoNotCall – 24 Hour Pause</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Answer</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem - Blocked by Gatekeeper</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Fax Tone</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Incomplete Record</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Target Inaccurate</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Target In Different Location</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem - Target Left Organization</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Wrong Company</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Target Not Available</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>User Not Available</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Voicemail Dropped</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Voicemail Reached</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Voicemail Reached – Direct Number</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cas__NumberAttempts__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of Attempts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cas__NumberConnects__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number Of Conversations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cas__Penalty_Box_Status__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>CAS Penalty Box Status</description>
+        <externalId>false</externalId>
+        <label>Penalty Box Status</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>nde__Company_Domain__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Node provided company domain name</description>
+        <externalId>false</externalId>
+        <label>Company Domain</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Available_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Available Matches</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Node City Vertical Matches</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Node City Matches</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Node Vertical Matches</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Best_Matches_Context__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Best Matches Context</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Best_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Best Matches</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_City_and_Category_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node City and Category Matches</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_City_and_Subcategory_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node City and Subcategory Matches</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Context_Formula__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Node-generated context with relevant information about a contact.</description>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE(nde__Node_Context__c, &quot;Working on it...&quot;)</formula>
+        <label>Node Context</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Context__c</fullName>
+        <defaultValue>&quot;Working on it...&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Node-generated context with relevant information about a contact.</description>
+        <externalId>false</externalId>
+        <label>Node Context Raw</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Corporate_Parent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Corporate Parent</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Corporate_Subsidiaries__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Corporate Subsidiaries</label>
+        <length>2000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Data_Version__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Data Version</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Education__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Education</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Education_in_Common__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Education in Common</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Former_Customer_Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Former Customer Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Generated_Formula__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Was this contact generated or analyzed by Node.io?</description>
+        <externalId>false</externalId>
+        <formula>IF( nde__Node_Generated__c, IMAGE(&quot;https://ded8kzigizww9.cloudfront.net/node-generated-caps-2x-02.png&quot;, &quot;Node Generated&quot;, 12, 110),
+IMAGE(&quot;https://ded8kzigizww9.cloudfront.net/node-analyzed-caps-2x-02.png&quot;, &quot;Node Analyzed&quot;, 12, 99))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Node Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Generated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Was this lead generated by Node.io?</inlineHelpText>
+        <label>Node Generated?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Global_Parent_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Global Parent Lookup</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Subsidiary_Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Global_Parent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Global Parent</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_State__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_Zip__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ Zip</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Internal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This information is used by Node Sales Analyst</description>
+        <externalId>false</externalId>
+        <label>Node Internal</label>
+        <length>15000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Keywords__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Keywords associated with the company</description>
+        <externalId>false</externalId>
+        <label>Node Keywords</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Last_Modified_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Last Modified Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>nde__Node_NAICS_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Company NAICS code</description>
+        <externalId>false</externalId>
+        <label>Node NAICS Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_NAICS_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Company NAICS code brief description</description>
+        <externalId>false</externalId>
+        <label>Node NAICS Description</label>
+        <length>120</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Primary_Company_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Primary Company Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Primary_Domain__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Primary Domain</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Priority_Formula__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>CASE(nde__Node_Priority__c, 
+-1, &quot;N/A&quot;, 
+0, &quot;U&quot;,
+1, &quot;C&quot;, 
+2, &quot;B&quot;, 
+3, &quot;A&quot;, 
+4, &quot;Closed&quot;,
+10, &quot;D&quot;,
+20, &quot;C&quot;,
+30, &quot;B&quot;,
+40, &quot;A&quot;,
+100, &quot;Closed&quot;,
+&quot;U&quot;)</formula>
+        <label>Node Priority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Priority__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Grade (num)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Subcategory_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Subcategory Matches</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Target_Profile__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Target Profile</label>
+        <length>128</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Technologies_Found__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Technologies Found</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>default</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Technologies_Used__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A Node-provided list of technologies used by an organization.</description>
+        <externalId>false</externalId>
+        <label>Node Technologies Used</label>
+        <length>5000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__You_Should_Mention__c</fullName>
+        <defaultValue>&quot;Coming soon! Data will appear here once processing is complete.&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node You Should Mention</label>
+        <length>1500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>zisf__ZoomInfo_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ZoomInfo Email address for the Contact record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ZoomInfo Email address for the Contact record.</inlineHelpText>
+        <label>ZoomInfo Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zisf__ZoomInfo_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ZoomInfo Phone for the Contact record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ZoomInfo Phone for the Contact record.</inlineHelpText>
+        <label>ZoomInfo Phone</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zisf__zoom_id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ZoomInfo person id, if the data on this object has ever been imported from the ZIDB.
+Stored as Long on Solr.</description>
+        <externalId>false</externalId>
+        <label>ZoomInfo ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zisf__zoom_lastupdated__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Last updated from ZoomInfo timestamp</description>
+        <externalId>false</externalId>
+        <label>ZoomInfo Last Updated</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <listViews>
+        <fullName>Aria_Systems</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>Seniority__c</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>Onboarding_Session__c</columns>
+        <columns>ICP_Completion_Date__c</columns>
+        <columns>Onboarding__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>CONTACT.LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>equals</operation>
+            <value>Aria Systems</value>
+        </filters>
+        <filters>
+            <field>Start_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Aria Systems Customer Success</label>
+    </listViews>
+    <listViews>
+        <fullName>Available_to_Sequence_Anderson</fullName>
+        <booleanFilter>1 AND 3 AND (2 OR 4 OR 5) AND 6</booleanFilter>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>Actively_Being_Sequenced__c</columns>
+        <columns>Account_Status__c</columns>
+        <columns>Contact_Status__c</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Actively_Being_Sequenced__c</field>
+            <operation>notEqual</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Marketing Qualified,Sales Ready - Not in Sequence</value>
+        </filters>
+        <filters>
+            <field>Account_Status__c</field>
+            <operation>notContain</operation>
+            <value>,open opportunity,bad data,do not contact,customer</value>
+        </filters>
+        <filters>
+            <field>Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed Sequence and Unresponsive,Manual_Finish_and_Unresponsive</value>
+        </filters>
+        <filters>
+            <field>Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Added to Existing Account - Not in Sequence</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>Anderson</value>
+        </filters>
+        <label>Available to Sequence - Anderson</label>
+    </listViews>
+    <listViews>
+        <fullName>GuideSpark</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>Seniority__c</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>Onboarding_Session__c</columns>
+        <columns>ICP_Completion_Date__c</columns>
+        <columns>Onboarding__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>CONTACT.LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>equals</operation>
+            <value>GuideSpark</value>
+        </filters>
+        <filters>
+            <field>Start_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>GuideSpark Customer Success</label>
+    </listViews>
+    <listViews>
+        <fullName>InsightSquared</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>Seniority__c</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>Onboarding_Session__c</columns>
+        <columns>ICP_Completion_Date__c</columns>
+        <columns>Onboarding__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>CONTACT.LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>equals</operation>
+            <value>InsightSquared</value>
+        </filters>
+        <filters>
+            <field>Start_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>InsightSquared Customer Success</label>
+    </listViews>
+    <listViews>
+        <fullName>Jitterbit</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>Seniority__c</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>Onboarding_Session__c</columns>
+        <columns>ICP_Completion_Date__c</columns>
+        <columns>Onboarding__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>CONTACT.LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>equals</operation>
+            <value>Jitterbit</value>
+        </filters>
+        <filters>
+            <field>Start_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Jitterbit Customer Success</label>
+    </listViews>
+    <listViews>
+        <fullName>nde__Node_Contacts_View</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>nde__Node_Generated_Formula__c</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>nde__Node_Context__c</columns>
+        <columns>nde__Node_Context_Formula__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.NAME</field>
+            <operation>contains</operation>
+            <value>PagerDuty</value>
+        </filters>
+        <label>Node Contacts View</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <listViewButtons>Mass_Edit</listViewButtons>
+        <listViewButtons>Mass_Update</listViewButtons>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account_Phone__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Disqualified_Reason_for_Contact_Status</fullName>
+        <active>true</active>
+        <errorConditionFormula>If(ISPICKVAL(Contact_Status__c, &apos;Disqualified&apos;)&amp;&amp;  ISPICKVAL(Disqualified_Reason__c, &apos;&apos;),TRUE,FALSE)</errorConditionFormula>
+        <errorDisplayField>Disqualified_Reason__c</errorDisplayField>
+        <errorMessage>Disqualified Reason is required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Follow_Up_Date_for_Contact_Status</fullName>
+        <active>true</active>
+        <errorConditionFormula>If(ISPICKVAL( Contact_Status__c ,&apos;Timing - Future Opportunity&apos;)&amp;&amp; ISBLANK(Follow_Up_Date__c),TRUE,FALSE)</errorConditionFormula>
+        <errorDisplayField>Follow_Up_Date__c</errorDisplayField>
+        <errorMessage>Follow Up Date is required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Follow_Up_Date_for_Future_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>If(ISPICKVAL( Contact_Status__c ,&apos;Timing - Future Opportunity&apos;)&amp;&amp; Follow_Up_Date__c  &lt; TODAY()+1,TRUE,FALSE)</errorConditionFormula>
+        <errorDisplayField>Follow_Up_Date__c</errorDisplayField>
+        <errorMessage>Follow Up Date should be future date!</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LID__Check_CompanyId_Value</fullName>
+        <active>true</active>
+        <description>Throws an exception message if the company id contains non-numerics</description>
+        <errorConditionFormula>AND(
+	(LID__LinkedIn_Company_Id__c &lt;&gt; NULL),
+	NOT(ISNUMBER(LID__LinkedIn_Company_Id__c))
+)</errorConditionFormula>
+        <errorDisplayField>LID__LinkedIn_Company_Id__c</errorDisplayField>
+        <errorMessage>CompanyId should be a numeric value</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Contact_MailingStreet}+{!Contact_MailingCity}+{!Contact_MailingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Contact_FirstName} {!Contact_LastName}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>MC4SF__MailChimp_Subscriptions_detail</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>MailChimp Subscriptions</masterLabel>
+        <openType>noSidebar</openType>
+        <page>MC4SF__SubscriptionsContact</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>MC4SF__MailChimp_Subscriptions_list</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>page</linkType>
+        <masterLabel>MailChimp Subscriptions</masterLabel>
+        <openType>replace</openType>
+        <page>MC4SF__SubscriptionsContactList</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Edit</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Edit</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassEditContact</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Update</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Update</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassUpdateContact</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>SendGmail</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Send Gmail</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to={!Contact_Email}&lt;{!Contact_LastName}, {!Contact_FirstName}&gt;&amp;tf=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>YahooMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Yahoo! Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Contact_MailingCountry}&amp;csz={!Contact_MailingCity}+{!Contact_MailingState}+{!Contact_MailingPostalCode}+&amp;addr={!Contact_MailingAddress}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>YahooWeather</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Yahoo! Weather</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://weather.yahoo.com/search/weather2?p={!Contact_MailingPostalCode}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>cas__Click_To_Call</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Click To Call</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!RequireScript(&quot;/soap/ajax/29.0/connection.js&quot;)}
+var contactRecords= {!GETRECORDIDS($ObjectType.Contact)};
+console.log(contactRecords);
+var csvContactIds = &quot;&quot;;
+for(var rowNum in contactRecords)
+{
+console.log(contactRecords[rowNum]);
+  csvContactIds += &quot;&apos;&quot; + contactRecords[rowNum] + &quot;&apos;,&quot;;
+console.log(csvContactIds);
+}
+//Remove last comma
+csvContactIds = csvContactIds.slice(0, csvContactIds.length - 1);
+
+//Enclose the ids in round brackets
+if(csvContactIds.length &gt; 1){
+    csvContactIds = &quot;(&quot; + csvContactIds + &quot;)&quot;;
+}
+var username = sforce.connection.getUserInfo().userName;
+var contactStatus = &quot; &quot;;
+if (contactRecords.length ==0) {
+    alert(&quot;Please select at least one Contact record.&quot;);
+}
+else {
+    var result = sforce.connection.query(&quot;select Name, Id, Email, Account.Name, Phone, MailingCountry, Title from Contact Where Id IN &quot; +csvContactIds);
+    var records = result.getArray(&quot;records&quot;);
+    
+    var status = &quot;&quot;;
+    for (var i=0; i&lt; records.length; i++) {
+        status += records[i].Company+ &apos;\n&apos;;
+records[i] = String(records[i]).substring(0, String(records[i]).length-3) + &quot;}&quot;;
+}
+var iframeData = {};
+iframeData[&apos;records&apos;] = &apos;[&apos; + records + &apos;]&apos;;
+iframeData[&apos;object&apos;] = &apos;Contact&apos;;
+iframeData[&apos;message&apos;] = &apos;NativeSFDC&apos;;
+var frames = document.getElementsByTagName(&apos;iframe&apos;);
+var ourframe;
+for (i = 0; i &lt; frames.length; ++i)
+{
+    if(frames[i].title == &apos;ConnectAndSellWidget&apos;){
+        ourframe = frames[i];
+        break;
+    }
+}
+ourframe.contentWindow.postMessage(iframeData, &apos;*&apos;);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>cas__Click_To_Dial</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Click To Dial</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!RequireScript(&quot;/soap/ajax/29.0/connection.js&quot;)}
+
+var username = sforce.connection.getUserInfo().userName;
+var contact= &quot;{type:&apos;Contact&apos;, Id:&apos;{!Contact.Id}&apos;, Name:&apos;{!Contact.Name}&apos;, Email:&apos;{!Contact.Email}&apos;, Company:&apos;{!Account.Name}&apos;, Phone:&apos;{!Contact.Phone}&apos;, Country:&apos;{!Contact.MailingCountry}&apos;, Title:&apos;{!Contact.Title}&apos; }&quot;;
+
+    var records = [];
+    records.push(contact);
+    var iframeData = {};
+    iframeData[&apos;records&apos;] = &apos;[&apos; + records + &apos;]&apos;;
+    iframeData[&apos;object&apos;] = &apos;Contact&apos;;
+    iframeData[&apos;message&apos;] = &apos;NativeSFDC&apos;;
+    var frames = document.getElementsByTagName(&apos;iframe&apos;);
+var ourframe;
+for (i = 0; i &lt; frames.length; ++i)
+{
+    if(frames[i].title == &apos;ConnectAndSellWidget&apos;){
+        ourframe = frames[i];
+        break;
+    }
+}
+ourframe.contentWindow.postMessage(iframeData, &apos;*&apos;);</url>
+    </webLinks>
+</CustomObject>

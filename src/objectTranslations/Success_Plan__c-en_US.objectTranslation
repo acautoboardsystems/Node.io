@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Success Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Success Plans</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Success Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Action Plan --></label>
+        <name>Action_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age of Customer (# days) --></label>
+        <name>Age_of_Customer_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approx # of AEs --></label>
+        <name>Approx_of_AEs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approx # of SDR/BDR --></label>
+        <name>Approx_of_SDR_BDR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Groups Using Node --></label>
+        <name>Business_Groups_Using_Node__c</name>
+        <picklistValues>
+            <masterLabel>Data</masterLabel>
+            <translation><!-- Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation><!-- Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Sales Segments --></label>
+        <name>Customer_Sales_Segments__c</name>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation><!-- Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid Market</masterLabel>
+            <translation><!-- Mid Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Specialization</masterLabel>
+            <translation><!-- No Specialization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small/Medium</masterLabel>
+            <translation><!-- Small/Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Executive Sponsor - 1 --></label>
+        <name>Executive_Contact1__c</name>
+        <relationshipLabel><!-- Success Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Executive Sponsor - 2 --></label>
+        <name>Executive_Sponsor_2__c</name>
+        <relationshipLabel><!-- Success Plans (Executive Sponsor - 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Executive Sponsor/Governance Status --></label>
+        <name>Executive_Sponsor_Governance_Status__c</name>
+        <picklistValues>
+            <masterLabel>All Set</masterLabel>
+            <translation><!-- All Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Shape - please help</masterLabel>
+            <translation><!-- Bad Shape - please help --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emerging - but in good shape</masterLabel>
+            <translation><!-- Emerging - but in good shape --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Work</masterLabel>
+            <translation><!-- Needs Work --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Existing Tech Stack --></label>
+        <name>Existing_Tech_Stack__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Plan Health Score --></label>
+        <name>HealthScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- How are Territories Assigned? --></label>
+        <name>How_are_Territories_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Risk Category --></label>
+        <name>Key_Risk_Category__c</name>
+        <picklistValues>
+            <masterLabel>Account Management/Relationship</masterLabel>
+            <translation><!-- Account Management/Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adoption/Value</masterLabel>
+            <translation><!-- Adoption/Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic</masterLabel>
+            <translation><!-- Economic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merger and Acquisition</masterLabel>
+            <translation><!-- Merger and Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Issue</masterLabel>
+            <translation><!-- Onboarding Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Inflicted (e.g. No training)</masterLabel>
+            <translation><!-- Self Inflicted (e.g. No training) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Review Date --></label>
+        <name>Last_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Score (post 45 days) --></label>
+        <name>NPS_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next NPS Survey Date --></label>
+        <name>Next_NPS_Survey_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Review Date --></label>
+        <name>Next_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Success Definitions and Measures --></label>
+        <name>Other_Success_Definitions_and_Measures__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Account Risk --></label>
+        <name>Overall_Account_Risk__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Business Goals --></label>
+        <name>Primary_Business_Goals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Notes --></label>
+        <name>Risk_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Ops Contact --></label>
+        <name>Sales_Ops_Contact__c</name>
+        <relationshipLabel><!-- Success Plans (Admin Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Support Level --></label>
+        <name>Support_Level__c</name>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tech Of Interest --></label>
+        <name>Tech_Of_Interest__c</name>
+    </fields>
+    <layouts>
+        <layout>Success Plan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

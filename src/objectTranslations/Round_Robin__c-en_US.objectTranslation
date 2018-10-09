@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Round Robin</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Round Robin</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Round Robin --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assgned Name --></label>
+        <name>Assgned_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do not Delete --></label>
+        <name>Do_not_Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID --></label>
+        <name>ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RR Number --></label>
+        <name>RR_Number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

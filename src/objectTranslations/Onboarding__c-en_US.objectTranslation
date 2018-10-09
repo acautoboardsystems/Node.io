@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Onboarding</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Onboarding</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Onboarding --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Age of Onboarding --></label>
+        <name>Age_of_Onboarding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Drivers --></label>
+        <name>Business_Drivers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completion Date --></label>
+        <name>Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Start Date --></label>
+        <name>Contract_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Executive Sponsor - 1 --></label>
+        <name>Executive_Sponsor1__c</name>
+        <relationshipLabel><!-- Executive Sponsor 1 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Executive Sponsor - 2 --></label>
+        <name>Executive_Sponsor2__c</name>
+        <relationshipLabel><!-- Executive Sponsor 2 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Onboarding Age --></label>
+        <name>Onboarding_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Onboarding Health --></label>
+        <name>Onboarding_Health__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Onboarding Notes --></label>
+        <name>Onboarding_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Onboarding Risks --></label>
+        <name>Onboarding_Risks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Onboarding Stage --></label>
+        <name>Onboarding_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End User Training</masterLabel>
+            <translation><!-- End User Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Alignment</masterLabel>
+            <translation><!-- Executive Alignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Deliveries</masterLabel>
+            <translation><!-- Product Deliveries --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Onboarding --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project Detail (Gdrive) --></label>
+        <name>Project_Detail_Gdrive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Ops --></label>
+        <name>Sales_Ops__c</name>
+        <relationshipLabel><!-- Onboarding --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Target Markets --></label>
+        <name>Target_Markets__c</name>
+    </fields>
+    <layouts>
+        <layout>Onboarding Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- OnBoarding Notes --></label>
+            <section>OnBoarding Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity --></label>
+            <section>Opportunity</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

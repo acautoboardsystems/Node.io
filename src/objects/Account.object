@@ -1,0 +1,2488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fieldSets>
+        <fullName>MC4SF__Account_Filter_Fields</fullName>
+        <description>used on the MailChimp query builder</description>
+        <displayedFields>
+            <field>Fax</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AccountNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Phone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Rating</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Site</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AccountSource</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AnnualRevenue</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingCity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingCountry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingState</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingStreet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingPostalCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>NumberOfEmployees</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Industry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastActivityDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingCity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingCountry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingState</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingStreet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingPostalCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Website</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Account Filter Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>nde__nde_Node_Account_Fields</fullName>
+        <description>These are the fields that Node uses in their package</description>
+        <displayedFields>
+            <field>nde__Node_Context__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Priority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Priority_Formula__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Generated__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Generated_Formula__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Context_Formula__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Last_Modified_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Technologies_Found__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__You_Should_Mention__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Available_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Internal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Subcategory_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_City_and_Subcategory_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_City_and_Category_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Best_Matches_Context__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Best_Matches__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_City__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_Country__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Industry__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Company_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Company_Revenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Employee_Size__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_Zip__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_HQ_Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Global_Parent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Global_Parent_Lookup__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Primary_Domain__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Primary_Company_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Target_Profile__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_NAICS_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_NAICS_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Keywords__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nde__Node_Employee_Count__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Node Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>ABM_Account__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>For current prospects, is an ABM strategy in progress? For former prospects, was an ABM strategy used?</inlineHelpText>
+        <label>ABM Account?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AE_Assignment_Auto_Number__c</fullName>
+        <displayFormat>{0}</displayFormat>
+        <externalId>false</externalId>
+        <label>AE Assignment Auto Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>ARRNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>ARRNumber</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountDevelopmentOwner_No_Activity_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY() - Account_Development_Owner_Last_Activity__c</formula>
+        <label>AccountDevelopmentOwner No Activity Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountNumber</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AccountSource</fullName>
+        <inlineHelpText>Mapped from the Lead Object, the lead source simply states the source the contact originated from and should not change once captured, whereas Campaigns are used to track specific activities such as Email Marketing, Tele-Prospecting, etc.</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Account_Added_to_Sequence__c</fullName>
+        <description>WFR Contacts in Sequence &gt; 0</description>
+        <externalId>false</externalId>
+        <label>Account Added to Sequence</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account_Assignment_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>MOD(VALUE( AE_Assignment_Auto_Number__c ) ,5) +1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Assignment ID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Custom_Tags__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Custom Tags</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Development_Owner_Last_Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Development Owner Last Activity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account_Development_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Development Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account_Inbound_Outbound__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Inbound/Outbound</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inbound</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Outbound</fullName>
+                    <default>true</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Account_New_RR_Assignmment_Id__c</fullName>
+        <description>This field is Hidden and is used in Apex program logic for this org. Please do not delete.</description>
+        <externalId>false</externalId>
+        <formula>MOD(VALUE(  NumberRR__c  ) ,4) +1</formula>
+        <label>Account New RR Assignmment Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Account_Out_of_Sequence__c</fullName>
+        <description>WFR Contacts in Sequence = 0</description>
+        <externalId>false</externalId>
+        <label>Account Out of Sequence</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account_Owner_Last_Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Owner Last Activity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account_Owner_No_Activity_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY() - Account_Owner_Last_Activity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner No Activity Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Status_Change_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Status Change Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Marketing Qualified</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Sales Prospect - Not Yet Working</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sales Prospect - Actively Working</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sales Prospect - Has Open Opportunity</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lost Customer - Voluntary Churn</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Lost Customer - Involuntary Churn</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Former Sales Prospect - Contacted and Disqualified</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Former Sales Prospect - Contacted and Opportunity Lost</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Former Sales Prospect - Not in Target Market</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bad Data - No Longer in Business</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Do Not Contact - Unsubscribed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Do Not Contact - Blacklisted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bad Data</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Do Not Contact</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Lost Customer - Involuntary</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Lost Customer - Voluntary</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Sales Opportunity</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Sales Prospecting</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Sales Rejected</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Unqualified</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Active_Account_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner.IsActive</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Active Account Owner</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Assign_Manually__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Assign Account Owner Manually</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Billing_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Who is the primary billing contact for the account</inlineHelpText>
+        <label>Billing Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Changed_Contact_Sequence__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Changed Contact Sequence</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Count__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This Field gets updated through an apex trigger &quot;CountRelatedContacts&quot;.</inlineHelpText>
+        <label>Contacts in Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_From_Lead__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Created From Lead</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Created_by_Role_Static__c</fullName>
+        <externalId>false</externalId>
+        <label>Created by Role (Static)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Success_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customer Success Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Won_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Won Date</label>
+        <summarizedField>Opportunity.CloseDate</summarizedField>
+        <summaryFilterItems>
+            <field>Opportunity.IsWon</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>min</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Days_Untouched__c</fullName>
+        <externalId>false</externalId>
+        <formula>Today() -  LastActivityDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Untouched</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Department_Size__c</fullName>
+        <description>The number of sales people within an organization.</description>
+        <externalId>false</externalId>
+        <label>Department Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Diagnostic_Recommended_Technologies__c</fullName>
+        <externalId>false</externalId>
+        <label>Diagnostic Recommended Technologies</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Eloqua</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Marketo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pardot</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Hubspot</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Act-On</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Omniture</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>WebTrends</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Coremetrics</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mixpanel</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>WooCommerce</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Verisign</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Salesforce</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MarkMonitor</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SiteSpect</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Workday</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Disqualified_Reason_Detail__c</fullName>
+        <description>List the details of the reason and any associated timeframe with a disqualified account</description>
+        <externalId>false</externalId>
+        <label>Disqualified Reason Detail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IST_Data__c</fullName>
+        <externalId>false</externalId>
+        <label>IST Data</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Industry</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>IsExcludedFromRealign</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LID__LinkedIn_Company_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>LinkedIn Id of the company/Account</description>
+        <externalId>false</externalId>
+        <label>LinkedIn Company Id</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lost_Opportunity_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Lost Opportunity Count</label>
+        <summaryFilterItems>
+            <field>Opportunity.Type</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Opportunity.IsClosed</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Opportunity.IsWon</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>NumberOfEmployees</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>NumberRR__c</fullName>
+        <description>This field is Hidden and is used in Apex program logic for this org. Please do not delete.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(ARRNumber__c)</formula>
+        <label>NumberRR</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Open_Opportunity_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Open Opportunity Count</label>
+        <summaryFilterItems>
+            <field>Opportunity.Type</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Opportunity.IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ownership</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Round_Robin_Account_AE__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Account_Assignment_ID__c , 
+1,&quot;Ethan Carr&quot;, 
+2,&quot;Adam Pierce&quot;,
+3,&quot;Neil Arora&quot;,
+4,&quot;Forest Spiegel&quot;,
+5,&quot;Marshall Serlin&quot;,
+&quot;None&quot;)</formula>
+        <label>Round Robin Account AE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Technologies__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Technologies</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Salesloft</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Outreach.io</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>ToutApp</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Yesware</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Persist.io</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sendbloom</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Insidesales.com</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Connect &amp; Sell</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Sic</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SicDesc</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Site</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Target_Account__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Target Account</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Territories</fullName>
+    </fields>
+    <fields>
+        <fullName>TickerSymbol</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Total_Lost_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total amount of Closed Lost Opportunities</inlineHelpText>
+        <label>Total Lost Amount</label>
+        <summarizedField>Opportunity.Amount</summarizedField>
+        <summaryFilterItems>
+            <field>Opportunity.IsWon</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Opportunity.IsClosed</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Open_Pipeline__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total open pipeline for an account</inlineHelpText>
+        <label>Total Open Pipeline</label>
+        <summarizedField>Opportunity.Amount</summarizedField>
+        <summaryFilterItems>
+            <field>Opportunity.IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Opportunity.Type</field>
+            <operation>notContain</operation>
+            <value>Existing</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Opportunity.AE_Accepted_Date__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </summaryFilterItems>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Won_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total amount of Closed/Won Opportunities</inlineHelpText>
+        <label>Total Won Amount</label>
+        <summarizedField>Opportunity.Amount</summarizedField>
+        <summaryFilterItems>
+            <field>Opportunity.IsWon</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type_Details__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Update with context whenever an Account&apos;s Type field is changed</inlineHelpText>
+        <label>Type Details</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Voluntary Churn</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Involuntary Churn</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Longer in Business</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Legal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Competitor</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Lost Customer</controllingFieldValue>
+                <valueName>Voluntary Churn</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Lost Customer</controllingFieldValue>
+                <valueName>Involuntary Churn</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Do Not Contact</controllingFieldValue>
+                <valueName>No Longer in Business</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Do Not Contact</controllingFieldValue>
+                <valueName>Legal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Do Not Contact</controllingFieldValue>
+                <valueName>Competitor</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Venture_Capital__c</fullName>
+        <externalId>false</externalId>
+        <label>Venture Capital</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Kleiner Perkins</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sequoia Capital</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Andreessen Horowitz</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Accel Partners</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Greylock Partners</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Battery Ventures</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IVP</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Founders Fund</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Redpoint</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bessemer Venture Partners</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Matrix Partners</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Venrock</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>NEA</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Iconic</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DFJ</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Benchmark</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Khosla</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Norwest</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>InterWest</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>First Round Capital</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Trinity</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Shasta</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Emergence Capital Partners</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Meritech Capital Partners</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Draper Fisher Jurvetson</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Salesforce Ventures</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mayfield Fund</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Google Ventures</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>nde__Company_Domain__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Node provided company domain name</description>
+        <externalId>false</externalId>
+        <label>Company Domain</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Available_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Available Matches</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Node City Vertical Matches</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Node City Matches</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Node Vertical Matches</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Best_Matches_Context__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Best Matches Context</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Best_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Best Matches</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_City_and_Category_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node City and Category Matches</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_City_and_Subcategory_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node City and Subcategory Matches</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Company_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Company Description</label>
+        <length>3000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Company_Revenue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Company Revenue</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Context_Formula__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Node-generated context with relevant information about an account.</description>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE(nde__Node_Context__c, &quot;Working on it...&quot;)</formula>
+        <label>Node Context</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Context__c</fullName>
+        <defaultValue>&quot;Working on it...&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Node-generated context with relevant information about an account</description>
+        <externalId>false</externalId>
+        <label>Node Context Raw</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Corporate_Parent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Corporate Parent</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Corporate_Subsidiaries__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Corporate Subsidiaries</label>
+        <length>2000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Data_Version__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Data Version</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Education__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Education</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Education_in_Common__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Education in Common</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Employee_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of employees at the company</description>
+        <externalId>false</externalId>
+        <label>Node Employee Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Employee_Size__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Employee Size</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Generated_Formula__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( nde__Node_Generated__c, IMAGE(&quot;https://ded8kzigizww9.cloudfront.net/node-generated-caps-2x-02.png&quot;, &quot;Node Generated&quot;, 12, 110),
+IMAGE(&quot;https://ded8kzigizww9.cloudfront.net/node-analyzed-caps-2x-02.png&quot;, &quot;Node Analyzed&quot;, 12, 99))</formula>
+        <label>Node Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Generated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Generated?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Global_Parent_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Global Parent Lookup</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Subsidiary_Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Global_Parent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Global Parent</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_State__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_HQ_Zip__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node HQ Zip</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Industry__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Industry</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Internal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This information in used by Node Sales Analyst</description>
+        <externalId>false</externalId>
+        <label>Node Internal</label>
+        <length>15000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Keywords__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Keywords associated with a company</description>
+        <externalId>false</externalId>
+        <label>Node Keywords</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Last_Modified_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Last Modified Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>nde__Node_NAICS_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Company NAICS code</description>
+        <externalId>false</externalId>
+        <label>Node NAICS Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_NAICS_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Company NAICS code brief description</description>
+        <externalId>false</externalId>
+        <label>Node NAICS Description</label>
+        <length>120</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Primary_Company_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Primary Company Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Primary_Domain__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Primary Domain</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Priority_Formula__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>CASE(nde__Node_Priority__c,
+-1, &quot;N/A&quot;,
+0, &quot;U&quot;,
+1, &quot;C&quot;,
+2, &quot;B&quot;,
+3, &quot;A&quot;,
+4, &quot;Closed&quot;,
+10, &quot;D&quot;,
+20, &quot;C&quot;,
+30, &quot;B&quot;,
+40, &quot;A&quot;,
+100, &quot;Closed&quot;,
+&quot;U&quot;)</formula>
+        <label>Node Priority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Priority__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Grade (#)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Subcategory_Matches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Subcategory Matches</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Target_Profile__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Target Profile</label>
+        <length>128</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nde__Node_Technologies_Found__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node Technologies Found</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>default</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__Technologies_Used__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A Node-provided list of technologies used by an organization.</description>
+        <externalId>false</externalId>
+        <label>Node Technologies Used</label>
+        <length>5000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>nde__You_Should_Mention__c</fullName>
+        <defaultValue>&quot;Coming soon! Data will appear here once processing is complete.&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Node You Should Mention</label>
+        <length>1500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>zisf__ZoomInfo_Industry__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Salesforce standard Industry field is only 40 characters in length. As ZoomInfo industries are sometimes longer than this, the ZoomInfo Industry field can hold up to 255 characters.</description>
+        <externalId>false</externalId>
+        <label>ZoomInfo Industry</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zisf__zoom_id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ZoomInfo person id, if the data on this object has ever been imported from the ZIDB.
+Stored as Long on Solr.</description>
+        <externalId>false</externalId>
+        <label>ZoomInfo ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zisf__zoom_lastupdated__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Last updated from ZoomInfo timestamp</description>
+        <externalId>false</externalId>
+        <label>ZoomInfo Last Updated</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <listViews>
+        <fullName>Accounts_Working_Active_Opportunity</fullName>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.URL</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>nde__Node_Employee_Size__c</columns>
+        <columns>nde__Node_Industry__c</columns>
+        <columns>ACCOUNT.LAST_ACTIVITY</columns>
+        <columns>ACCOUNT.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Open_Opportunity_Count__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1</value>
+        </filters>
+        <label>Accounts Working - Active Opportunity</label>
+    </listViews>
+    <listViews>
+        <fullName>Accounts_Working_No_Opportunity</fullName>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.URL</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>nde__Node_Employee_Size__c</columns>
+        <columns>nde__Node_Industry__c</columns>
+        <columns>ACCOUNT.LAST_ACTIVITY</columns>
+        <columns>ACCOUNT.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Prospect - Current</value>
+        </filters>
+        <filters>
+            <field>Total_Open_Pipeline__c</field>
+            <operation>equals</operation>
+            <value>,0</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>notEqual</operation>
+            <value>McBeth,Fatemi</value>
+        </filters>
+        <filters>
+            <field>Total_Lost_Amount__c</field>
+            <operation>equals</operation>
+            <value>,0</value>
+        </filters>
+        <filters>
+            <field>Total_Won_Amount__c</field>
+            <operation>equals</operation>
+            <value>,0</value>
+        </filters>
+        <label>Accounts Working - No Opportunity</label>
+    </listViews>
+    <listViews>
+        <fullName>Accounts_Working_Revisit_Lost_Deals</fullName>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.URL</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>Total_Lost_Amount__c</columns>
+        <columns>nde__Node_Employee_Size__c</columns>
+        <columns>nde__Node_Industry__c</columns>
+        <columns>ACCOUNT.LAST_ACTIVITY</columns>
+        <columns>ACCOUNT.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Prospect - Current</value>
+        </filters>
+        <filters>
+            <field>Total_Open_Pipeline__c</field>
+            <operation>equals</operation>
+            <value>,0</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>notEqual</operation>
+            <value>McBeth,Fatemi</value>
+        </filters>
+        <filters>
+            <field>Total_Lost_Amount__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Total_Won_Amount__c</field>
+            <operation>equals</operation>
+            <value>,0</value>
+        </filters>
+        <label>Accounts Working - Revisit Lost Deals</label>
+    </listViews>
+    <listViews>
+        <fullName>AllAccounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>nde__Node_HQ_City__c</columns>
+        <columns>nde__Node_Technologies_Found__c</columns>
+        <columns>nde__Node_Employee_Size__c</columns>
+        <columns>nde__Node_Company_Revenue__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>Allison_s_Account_View</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>nde__Node_Industry__c</columns>
+        <columns>nde__Node_Employee_Count__c</columns>
+        <columns>ACCOUNT.LAST_ACTIVITY</columns>
+        <columns>nde__Node_HQ_Country__c</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Account_Development_Owner__c</field>
+            <operation>equals</operation>
+            <value>Allison Randell</value>
+        </filters>
+        <filters>
+            <field>nde__Node_HQ_Country__c</field>
+            <operation>equals</operation>
+            <value>,US</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Prospect</value>
+        </filters>
+        <label>Allison&apos;s Account View</label>
+    </listViews>
+    <listViews>
+        <fullName>Customers</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>Venture_Capital__c</columns>
+        <columns>nde__Node_HQ_City__c</columns>
+        <columns>nde__Node_Technologies_Found__c</columns>
+        <columns>nde__Node_Employee_Size__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Account_Status__c</field>
+            <operation>equals</operation>
+            <value>Customer</value>
+        </filters>
+        <label>Customers</label>
+    </listViews>
+    <listViews>
+        <fullName>Joe_s_Account_View</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>nde__Node_Industry__c</columns>
+        <columns>nde__Node_Employee_Count__c</columns>
+        <columns>ACCOUNT.LAST_ACTIVITY</columns>
+        <columns>nde__Node_HQ_Country__c</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Account_Development_Owner__c</field>
+            <operation>equals</operation>
+            <value>Joe Farafontoff</value>
+        </filters>
+        <filters>
+            <field>nde__Node_HQ_Country__c</field>
+            <operation>equals</operation>
+            <value>,US</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Prospect</value>
+        </filters>
+        <label>Joe&apos;s Account View</label>
+    </listViews>
+    <listViews>
+        <fullName>Marketing_Qualified_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Account_Development_Owner__c</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>Account_Development_Owner_Last_Activity__c</columns>
+        <columns>Account_Owner_Last_Activity__c</columns>
+        <columns>nde__Node_Employee_Size__c</columns>
+        <columns>Lost_Opportunity_Count__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Account_Status__c</field>
+            <operation>equals</operation>
+            <value>Marketing Qualified</value>
+        </filters>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Prospect/Customer</value>
+        </filters>
+        <label>Marketing Qualified Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>NewThisWeek</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New This Week</label>
+    </listViews>
+    <listViews>
+        <fullName>Node_Accounts</fullName>
+        <columns>CORE.USERS.LAST_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>nde__Node_Priority_Formula__c</columns>
+        <columns>nde__Node_Employee_Size__c</columns>
+        <columns>nde__Node_Technologies_Found__c</columns>
+        <columns>nde__Technologies_Used__c</columns>
+        <columns>nde__Node_HQ_City__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>nde__Node_HQ_State__c</field>
+            <operation>equals</operation>
+            <value>CA</value>
+        </filters>
+        <label>Node Account View</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
+        <listViewButtons>Mass_Edit</listViewButtons>
+        <listViewButtons>Mass_Update</listViewButtons>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Account_Develpement_Owner</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+PRIORVALUE ( Account_Development_Owner__c )&lt;&gt;$UserRole.Id,
+ISCHANGED( Account_Development_Owner__c ) 
+
+
+&amp;&amp; 
+$User.ProfileId &lt;&gt; &quot;00e37000000gogC&quot;, 
+$UserRole.Id &lt;&gt; &quot;00E37000000dh0x&quot; 
+)</errorConditionFormula>
+        <errorDisplayField>Account_Development_Owner__c</errorDisplayField>
+        <errorMessage>You are not Authorized to Change Account Development Owner.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Account_Ownership_change</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+PRIORVALUE (OwnerId ) &lt;&gt; $User.Id,
+ISCHANGED( OwnerId ) 
+&amp;&amp; 
+
+$User.ProfileId &lt;&gt; &quot;00e37000000gogC&quot;
+
+)</errorConditionFormula>
+        <errorDisplayField>OwnerId</errorDisplayField>
+        <errorMessage>You are not Authorized to change Owner!</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Billing_Contact_Required</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISBLANK( Billing_Contact__c ) &amp;&amp;  ISPICKVAL( Account_Status__c , &quot;Customer&quot;)</errorConditionFormula>
+        <errorMessage>All customers must have an active billing contact</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LID__Check_CompanyId_Value</fullName>
+        <active>true</active>
+        <description>Throws an exception message if the company id contains non-numerics</description>
+        <errorConditionFormula>AND(
+	(LID__LinkedIn_Company_Id__c &lt;&gt; NULL),
+	NOT(ISNUMBER(LID__LinkedIn_Company_Id__c))
+)</errorConditionFormula>
+        <errorDisplayField>LID__LinkedIn_Company_Id__c</errorDisplayField>
+        <errorMessage>CompanyId should be a numeric value</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_Acc_creation_manually_or_import</fullName>
+        <active>true</active>
+        <errorConditionFormula>( ISBLANK(CreatedDate )) 
+
+&amp;&amp; 
+( Created_From_Lead__c =False 
+
+&amp;&amp; 
+
+$UserRole.Id = &quot;00E37000000dh0x&quot; 
+
+|| 
+
+$UserRole.Id = &quot;00E37000000dh0s&quot;)</errorConditionFormula>
+        <errorMessage>Account can be created ONLY through Lead Conversion and Not manually / Bulk Import</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Type_Detail_Required_for_Type</fullName>
+        <active>true</active>
+        <errorConditionFormula>If(OR((ISPICKVAL(  Type  ,&apos;Lost Customer&apos;)&amp;&amp; ISPICKVAL(  Type_Details__c  , &apos;&apos;)),(ISPICKVAL(  Type  ,&apos;Do Not Contact&apos;)&amp;&amp; ISPICKVAL( Type_Details__c , &apos;&apos;))),TRUE,FALSE)</errorConditionFormula>
+        <errorDisplayField>Type_Details__c</errorDisplayField>
+        <errorMessage>Type Details is required</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>AltavistaNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Altavista News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://news.altavista.com/search?nc=0&amp;q={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Account_BillingStreet}+{!Account_BillingCity}+{!Account_BillingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/news?&amp;q={!Account_Name}&amp;btnG=Search+News</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>HooversProfile</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Hoovers Profile</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>MC4SF__MailChimp_Subscriptions</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>MailChimp Subscriptions</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+
+try { 
+	var personContactId = sforce.apex.execute(&quot;MC4SF.Util&quot;, &quot;getPersonContactId&quot;, {accountId: &apos;{!Account.Id}&apos;}); 
+	if (personContactId == &apos;&apos;) {
+		alert(&apos;This feature is only applicable to Person Accounts.&apos;);
+	} else {
+		top.location.href = &apos;/apex/MC4SF__SubscriptionsContact?id=&apos; + personContactId;
+	}
+} catch (error) { 
+	if (error.faultcode == &apos;sf:INSUFFICIENT_ACCESS&apos;) { 
+		alert(&apos;You do not have permission to perform this function.&apos;); 
+	} else { 
+		alert(error); 
+	} 
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Edit</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Edit</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassEditAccount</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Update</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Update</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassUpdateAccount</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>YahooMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Yahoo Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Account_BillingCountry}&amp;csz={!Account_BillingCity}+{!Account_BillingState}+{!Account_BillingPostalCode}+&amp;addr={!Account_BillingAddress}</url>
+    </webLinks>
+</CustomObject>

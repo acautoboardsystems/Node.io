@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CAS Lead Details Native SFDC</description>
+    <label>CAS Lead Details</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom15: People</motif>
+    <page>leads</page>
+</CustomTab>

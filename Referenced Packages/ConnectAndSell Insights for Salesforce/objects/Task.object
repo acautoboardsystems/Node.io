@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <fullName>Click_to_Call</fullName>
+        <availability>online</availability>
+        <description>Click to Call feature for activity layout</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Click to Call</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&apos;/soap/ajax/29.0/connection.js&apos;)}
+var selectedRecords= {!GETRECORDIDS($ObjectType.Task)};
+var selectedIds = &quot;&quot;;
+var leadsIds = &quot;&quot;;
+var contactIds = &quot;&quot;;
+var records = [];
+var object = &quot;&quot;;
+for(var rowNum in selectedRecords)
+{
+  selectedIds += &quot;&apos;&quot; + selectedRecords[rowNum] + &quot;&apos;,&quot;;
+}
+//Remove last comma
+selectedIds = selectedIds.slice(0, selectedIds.length - 1);
+//Enclose the ids in round brackets
+if(selectedIds.length &gt; 1){
+    selectedIds = &quot;(&quot; + selectedIds + &quot;)&quot;;
+}
+var username = sforce.connection.getUserInfo().userName;
+if (selectedRecords.length ==0) {
+    alert(&quot;Please select at least one Activity record.&quot;);
+}
+else {
+    var activityResult = sforce.connection.query(&quot;select WhoID from Task Where Id IN &quot; + selectedIds);
+    var activityRecords = activityResult.getArray(&quot;records&quot;);
+    for(var itr in activityRecords) {
+        var WhoId = activityRecords[itr].WhoId;
+        switch(WhoId.substring(0,3)) {
+            case &quot;00Q&quot;: leadsIds += &quot;&apos;&quot; +WhoId +&quot;&apos;,&quot;;
+                 break;
+            case &quot;003&quot;: contactIds += &quot;&apos;&quot; + WhoId +&quot;&apos;,&quot;;
+                 break;
+        }
+    }
+    //Remove last comma
+    leadsIds = leadsIds.slice(0, leadsIds.length - 1);
+    contactIds = contactIds.slice(0, contactIds.length - 1);
+    if (leadsIds.length &gt; 1) {
+        leadIds = &quot;(&quot; + leadsIds + &quot;)&quot;;
+        object = &quot;Lead&quot;;
+        records = records.concat(loadSession(leadIds, object));
+    }
+    if (contactIds.length &gt; 1) {
+        contactIds = &quot;(&quot; + contactIds + &quot;)&quot;;
+        object = &quot;Contact&quot;;
+        records = records.concat(loadSession(contactIds, object));
+    }
+    var iframeData = {};
+    iframeData[&apos;records&apos;] = &apos;[&apos; + records + &apos;]&apos;;
+    iframeData[&apos;object&apos;] = &apos;Lead&apos;;
+    iframeData[&apos;message&apos;] = &apos;NativeSFDC&apos;;
+    var frames = document.getElementsByTagName(&apos;iframe&apos;);
+    
+    for (i = 0; i &lt; frames.length; ++i)
+    {
+        if(frames[i].title == &apos;ConnectAndSellWidget&apos;){
+            ourframe = frames[i];
+            break;
+        }
+    }
+    ourframe.contentWindow.postMessage(iframeData, &apos;*&apos;); 
+}
+
+function loadSession(ids, objectType = &quot;Contact&quot;){
+    var records = [];
+    if (objectType == &quot;Contact&quot;){
+        var result = sforce.connection.query(&quot;select Name, Id, Email, Account.Name, Phone, MailingCountry, Title from Contact Where Id IN &quot; + ids);
+        records = result.getArray(&quot;records&quot;);
+    } else {
+        var result = sforce.connection.query(&quot;select Name, Id, Email, Company, Status, Phone, Country, Title from Lead Where Id IN &quot; + ids);
+        records = result.getArray(&quot;records&quot;);
+    }
+    var status = &quot;&quot;;
+    for (var i=0; i&lt; records.length; i++) { 
+        status += records[i].Company+ &apos;\n&apos;; 
+        records[i] = String(records[i]).substring(0, String(records[i]).length-3) + &quot;}&quot;; 
+    }
+    return records;
+}</url>
+    </webLinks>
+</CustomObject>

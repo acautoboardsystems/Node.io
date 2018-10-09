@@ -1,0 +1,100 @@
+<apex:page standardController="Contact" extensions="cas.ContactActivityController" tabStyle="CAS_Contact_Details__tab" id="overrideContactDetails" showHeader="true" sidebar="true">
+    <meta charset="utf-8"></meta>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="../../soap/ajax/20.0/connection.js" type="text/javascript"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://prod4.connectandsell.com/ConnectAndSell/Scripts/fm.js" type="text/javascript"></script>
+    <script src="https://prod4.connectandsell.com/ConnectAndSell/Scripts/fm.websync.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"></link>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"></link>
+    <apex:includeScript value="{!$Resource.cas__lead_sync}"/>
+    <apex:Form id="leadPageForm">
+        <apex:sectionheader title="Contact Details">
+           <a style="font-weight:bold; font-size: medium;" id="leadAnchor" href="#" target="_blank">{!if(Contact.Id==null,'New Contact',Contact.Name)}</a>
+        </apex:sectionheader>
+        <apex:pageblock title="Contact Detail">
+            <apex:pageblocksection id="leadInfo" title="Contact Information">
+                <apex:pageblocksectionitem >
+                    <apex:outputlabel value="{!$ObjectType.Contact.Fields.FirstName.label}"></apex:outputlabel>
+                    <apex:outputpanel >
+                        <apex:inputfield value="{!Contact.Salutation}"></apex:inputfield>
+                        <apex:inputfield value="{!Contact.Name}"></apex:inputfield>
+                    </apex:outputpanel>
+                </apex:pageblocksectionitem>
+                <apex:inputfield value="{!Contact.Owner.Name}"></apex:inputfield>
+                
+                <apex:inputfield value="{!Contact.Account.Name}"></apex:inputfield>
+                <apex:outputtext value=""></apex:outputtext>
+                
+                <apex:inputfield value="{!Contact.Title}"></apex:inputfield>       
+                
+                <apex:inputfield value="{!Contact.Description}"></apex:inputfield>
+                
+                
+                <apex:outputtext value=""></apex:outputtext>
+                <apex:inputField value="{!Contact.cas__NumberAttempts__c}"></apex:inputfield>
+                
+                <apex:inputField value="{!Contact.cas__FirstAttempt__c}"></apex:inputfield>
+                <apex:inputField value="{!Contact.cas__LastAttempt__c}"></apex:inputfield>
+                
+            </apex:pageblocksection>
+            
+            <apex:pageblocksection id="contactInfo" title="Contact Information">
+                <apex:inputfield value="{!Contact.Phone}"></apex:inputfield>
+                <apex:outputtext value=""></apex:outputtext>
+                
+                <apex:inputfield value="{!Contact.MobilePhone}"></apex:inputfield>
+                <apex:outputtext value=""></apex:outputtext>
+                
+                <apex:inputfield value="{!Contact.Fax}"></apex:inputfield>
+                <apex:outputtext value=""></apex:outputtext>
+                
+                <apex:inputfield value="{!Contact.Email}" required="true"></apex:inputfield>
+                <apex:outputtext value=""></apex:outputtext>
+            </apex:pageblocksection>
+        </apex:pageblock>
+        <apex:pageblock title="Open Activities">
+            <apex:pageBlockTable value="{!OpenActivities}" var="tsk">
+                <apex:column value="{!tsk.Subject}"/>
+                <apex:column value="{!tsk.Status}"/>
+                <apex:column value="{!tsk.ActivityDate}"/>
+                <apex:column value="{!tsk.Priority}"/>
+                <apex:column value="{!tsk.Description}"/>
+                <apex:column value="{!tsk.LastModifiedDate}"/>
+            </apex:pageBlockTable>
+        </apex:pageblock>
+        <apex:pageblock title="Activity History">
+            <apex:pageBlockTable value="{!Activities}" var="tsk">
+                <apex:column value="{!tsk.Subject}"/>
+                <apex:column value="{!tsk.Status}"/>
+                <apex:column value="{!tsk.ActivityDate}"/>
+                <apex:column value="{!tsk.Priority}"/>
+                <apex:column value="{!tsk.Description}"/>
+                <apex:column value="{!tsk.LastModifiedDate}"/>
+            </apex:pageBlockTable>
+        </apex:pageblock>
+    </apex:Form>
+    <script>
+        var baseUrl = localStorage.getItem("ServerUrl");;
+        var client = new fm.websync.client(baseUrl + "websync");
+        var identifier = localStorage.getItem("UserIdentifier");
+        sforce.connection.sessionId = '{!$Api.Session_ID}';
+        loadHeader(identifier);
+        $(function(){
+            var idPos = location.href.indexOf("&id");
+            if(idPos != -1)
+            {
+                var urlLen = location.href.length;
+                var crmId = location.href.substring((idPos+4), urlLen);
+                var apexPos = location.href.indexOf("apex");
+                if(apexPos != -1)
+                {
+                    var leadUrl = location.href.substring(0, apexPos) + crmId + '?isdtp=vw';
+                    console.log("anchor tag");
+                    $("#leadAnchor").attr("href", leadUrl);
+                }  
+            }
+        });
+    </script>
+</apex:page>

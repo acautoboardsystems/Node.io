@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ContactStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact Status (Future Use - Do Not Use)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Do Not Call</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Contacted - Qualifying</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not Contacted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Contacted - Disqualified</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Contacted - Incorrect Data</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Former Customer</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FirstAttempt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>First Attempt</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>First_Conversation_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>CAS First Conversation Date</description>
+        <externalId>false</externalId>
+        <label>First Conversation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastAttempt__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Attempt</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastConnect__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Conversation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>List_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>CAS LIst Name</description>
+        <externalId>false</externalId>
+        <label>List Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Most_Recent_Attempt_Disposition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To store attempt disposition for each call through CAS</description>
+        <externalId>false</externalId>
+        <label>Most Recent Attempt Disposition</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Most_Recent_Conversation_Disposition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To store disposition selected by pitcher through CAS</description>
+        <externalId>false</externalId>
+        <label>Most Recent Conversation Disposition</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Most_Recent_Disposition__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Most Recent Disposition</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Conversation</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DoNotCall – 24 Hour Pause</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Answer</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem - Blocked by Gatekeeper</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Fax Tone</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Incomplete Record</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Target Inaccurate</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Target In Different Location</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem - Target Left Organization</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem – Wrong Company</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Target Not Available</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>User Not Available</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Voicemail Dropped</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Voicemail Reached</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Voicemail Reached – Direct Number</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NumberAttempts__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of Attempts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NumberConnects__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number Of Conversations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Penalty_Box_Status__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>CAS Penalty Box Status</description>
+        <externalId>false</externalId>
+        <label>Penalty Box Status</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <webLinks>
+        <fullName>Click_To_Call</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Click To Call</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!RequireScript(&quot;/soap/ajax/29.0/connection.js&quot;)}
+var contactRecords= {!GETRECORDIDS($ObjectType.Contact)};
+console.log(contactRecords);
+var csvContactIds = &quot;&quot;;
+for(var rowNum in contactRecords)
+{
+console.log(contactRecords[rowNum]);
+  csvContactIds += &quot;&apos;&quot; + contactRecords[rowNum] + &quot;&apos;,&quot;;
+console.log(csvContactIds);
+}
+//Remove last comma
+csvContactIds = csvContactIds.slice(0, csvContactIds.length - 1);
+
+//Enclose the ids in round brackets
+if(csvContactIds.length &gt; 1){
+    csvContactIds = &quot;(&quot; + csvContactIds + &quot;)&quot;;
+}
+var username = sforce.connection.getUserInfo().userName;
+var contactStatus = &quot; &quot;;
+if (contactRecords.length ==0) {
+    alert(&quot;Please select at least one Contact record.&quot;);
+}
+else {
+    var result = sforce.connection.query(&quot;select Name, Id, Email, Account.Name, Phone, MailingCountry, Title from Contact Where Id IN &quot; +csvContactIds);
+    var records = result.getArray(&quot;records&quot;);
+    
+    var status = &quot;&quot;;
+    for (var i=0; i&lt; records.length; i++) {
+        status += records[i].Company+ &apos;\n&apos;;
+records[i] = String(records[i]).substring(0, String(records[i]).length-3) + &quot;}&quot;;
+}
+var iframeData = {};
+iframeData[&apos;records&apos;] = &apos;[&apos; + records + &apos;]&apos;;
+iframeData[&apos;object&apos;] = &apos;Contact&apos;;
+iframeData[&apos;message&apos;] = &apos;NativeSFDC&apos;;
+var frames = document.getElementsByTagName(&apos;iframe&apos;);
+var ourframe;
+for (i = 0; i &lt; frames.length; ++i)
+{
+    if(frames[i].title == &apos;ConnectAndSellWidget&apos;){
+        ourframe = frames[i];
+        break;
+    }
+}
+ourframe.contentWindow.postMessage(iframeData, &apos;*&apos;);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Click_To_Dial</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Click To Dial</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!RequireScript(&quot;/soap/ajax/29.0/connection.js&quot;)}
+
+var username = sforce.connection.getUserInfo().userName;
+var contact= &quot;{type:&apos;Contact&apos;, Id:&apos;{!Contact.Id}&apos;, Name:&apos;{!Contact.Name}&apos;, Email:&apos;{!Contact.Email}&apos;, Company:&apos;{!Account.Name}&apos;, Phone:&apos;{!Contact.Phone}&apos;, Country:&apos;{!Contact.MailingCountry}&apos;, Title:&apos;{!Contact.Title}&apos; }&quot;;
+
+    var records = [];
+    records.push(contact);
+    var iframeData = {};
+    iframeData[&apos;records&apos;] = &apos;[&apos; + records + &apos;]&apos;;
+    iframeData[&apos;object&apos;] = &apos;Contact&apos;;
+    iframeData[&apos;message&apos;] = &apos;NativeSFDC&apos;;
+    var frames = document.getElementsByTagName(&apos;iframe&apos;);
+var ourframe;
+for (i = 0; i &lt; frames.length; ++i)
+{
+    if(frames[i].title == &apos;ConnectAndSellWidget&apos;){
+        ourframe = frames[i];
+        break;
+    }
+}
+ourframe.contentWindow.postMessage(iframeData, &apos;*&apos;);</url>
+    </webLinks>
+</CustomObject>

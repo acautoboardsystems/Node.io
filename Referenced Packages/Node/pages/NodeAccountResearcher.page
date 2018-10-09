@@ -1,0 +1,34 @@
+<apex:page standardStylesheets="false" showHeader="false" standardController="Account" docType="html-5.0">
+    <apex:remoteObjects >
+        <apex:remoteObjectModel name="Contact"
+                                fields="LastName, Id, Email, FirstName, Salutation, Title,
+                                Name, AccountId, LastActivityDate, LastViewedDate"/>
+    </apex:remoteObjects>
+
+    <c:NodeResearcher current="{!account}"/>
+
+    <div id="node-sales-analyst" ng-app="nodeapp">
+        <table>
+            <c:NodeHeader />
+        </table>
+        <table>
+            <c:NodeKeyContacts />
+            <c:NodeMention />
+            <c:RecentNews />
+        </table>
+    </div>
+
+    <!-- We need to specify fields we use in controller -->
+    <apex:outputText value="{!account.Name}" rendered="false"/>
+    <apex:outputText value="{!account.OwnerId}" rendered="false"/>
+    <apex:outputText value="{!account.Website}" rendered="false"/>
+    <apex:outputText value="{!account.nde__Node_Internal__c}" rendered="false"/>
+    <apex:outputText value="{!account.nde__You_Should_Mention__c}" rendered="false"/>
+    <apex:outputText value="{!account.nde__Node_Technologies_Found__c}" rendered="false"/>
+    <apex:outputText value="{!account.nde__Node_Priority__c}" rendered="false"/>
+    <apex:outputText value="{!account.nde__Node_Priority_Formula__c}" rendered="false"/>
+    <apex:outputText value="{!account.nde__Node_Generated_Formula__c}" rendered="false"/>
+    <apex:outputText value="{!account.nde__Node_Generated__c}" rendered="false"/>
+    <apex:outputText value="{!account.nde__Node_Context__c}" rendered="false"/>
+
+</apex:page>

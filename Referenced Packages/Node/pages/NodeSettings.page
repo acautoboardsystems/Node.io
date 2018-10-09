@@ -1,0 +1,52 @@
+<apex:page controller="nde.NodeSettingsController">
+    <apex:sectionHeader title="Node Package Configuration"/>
+    <style>
+      .bPageBlock .labelCol  { font-size:12px; }
+      .textField { line-height:22px;margin:0;display:block;padding:0 5px;border:1px solid#999; }
+   </style>
+    <apex:form >
+        <apex:pageBlock >
+            
+            <apex:pageMessages />
+            
+            <apex:pageBlockSection columns="1">
+                <br/>
+                <p style="font-size:12px;line-height:1.5;">
+                    If you already have your access credentials, please enter them in the fields below. 
+                    Otherwise, click on the “Request Access” button below to request your access credentials. 
+                    A Node representative will email you with your access credentials if you are a Node Customer 
+                    authorized for the Salesforce Node Package. If you are not a Node Customer,  a Node representative 
+                    will contact you to discuss how to gain access to the Node solutions. 
+                </p>
+                <br/>
+                <p style="font-size:12px;line-height:1.5;">
+                Once you receive access credentials, please enter them in the fields below and click Save.
+                </p>
+            
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection columns="1">
+                <apex:inputSecret redisplay="true"
+                                  styleClass="textField"
+                                  value="{!settings.nde__Api_Key__c}"
+                                  id="key"
+                                  style="width:450px"/>
+            </apex:pageBlockSection>
+            
+            
+            <apex:pageBlockSection columns="1" >
+                <br/>
+               <p style="font-size:12px;line-height:1.5;">
+                  If you encounter any technical difficulties, please contact 
+                  <a href="mailto:support@node.io" target="_blank">support@node.io</a>
+               </p>
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton value="Request Access" action="{!email}"/>
+                <apex:commandButton value="Save" action="{!save}"/>
+            </apex:pageBlockButtons>
+            
+            </apex:pageBlock>
+    </apex:form>
+</apex:page>

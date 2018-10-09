@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <mappings>
+        <sourceField>Account.Contact_Count__c</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Account_Snapshot__c.Contacts_in_Sequence__c</targetField>
+    </mappings>
+    <name>Contacts in Sequence</name>
+    <runningUser>greg@node.io</runningUser>
+    <sourceReport>unfiled$public/Contacts_in_Sequence_per_Account</sourceReport>
+    <targetObject>Account_Snapshot__c</targetObject>
+</AnalyticSnapshot>

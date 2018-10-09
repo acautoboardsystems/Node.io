@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Node_Logo</letterhead>
+    <name>NPS Survey</name>
+    <style>freeForm</style>
+    <subject>How are we doing?</subject>
+    <textOnly>We can&apos;t help drive revenue if we don&apos;t hear back from you.
+
+Please take 1-minute survey to tell NODE.IO how we are doing!
+https://goo.gl/forms/Wms42v528O8zzTtw2
+
+THANK YOU!
+
+
+Bests,
+
+
+
+{!Success_Plan__c.CreatedBy}
+Node, Customer Success Group</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,28 @@
+<apex:page standardStylesheets="false" showHeader="false" standardController="Lead" docType="html-5.0">
+    <c:NodeResearcher current="{!lead}"/>
+
+    <div id="node-sales-analyst" ng-app="nodeapp">
+        <table>
+            <c:NodeHeader />
+        </table>
+        <table>
+            <c:NodeMention />
+            <c:RecentNews />
+        </table>
+    </div>
+
+    <!-- We need to specify fields we use in controller -->
+    <apex:outputText value="{!lead.Company}" rendered="false"/>
+    <apex:outputText value="{!lead.Website}" rendered="false"/>
+    <apex:outputText value="{!lead.OwnerId}" rendered="false"/>
+    <apex:outputText value="{!lead.FirstName}" rendered="false"/>
+    <apex:outputText value="{!lead.nde__You_Should_Mention__c}" rendered="false"/>
+    <apex:outputText value="{!lead.nde__Node_Internal__c}" rendered="false"/>
+    <apex:outputText value="{!lead.nde__Node_Technologies_Found__c}" rendered="false"/>
+    <apex:outputText value="{!lead.nde__Node_Priority__c}" rendered="false"/>
+    <apex:outputText value="{!lead.nde__Node_Priority_Formula__c}" rendered="false"/>
+    <apex:outputText value="{!lead.nde__Node_Generated_Lead_Formula__c}" rendered="false"/>
+    <apex:outputText value="{!lead.nde__Node_Generated_Checkbox__c}" rendered="false"/>
+    <apex:outputText value="{!lead.nde__Node_Context__c}" rendered="false"/>
+
+</apex:page>

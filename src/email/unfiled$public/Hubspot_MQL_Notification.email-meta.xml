@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Proactive notification for existing Contacts that become new MQLs</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Hubspot Contact MQL Notification</name>
+    <style>none</style>
+    <subject>Your contact became Marketing Qualified!</subject>
+    <type>text</type>
+</EmailTemplate>

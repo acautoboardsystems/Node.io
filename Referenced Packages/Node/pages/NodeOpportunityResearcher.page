@@ -1,0 +1,35 @@
+<apex:page standardStylesheets="false" showHeader="false" standardController="Opportunity" docType="html-5.0">
+    <apex:remoteObjects >
+        <apex:remoteObjectModel name="Contact"
+                                fields="LastName, Id, Email, FirstName, Salutation, Title,
+                                Name, AccountId, LastActivityDate, LastViewedDate"/>
+    </apex:remoteObjects>
+
+    <c:NodeResearcher current="{!opportunity}"/>
+
+    <div id="node-sales-analyst" ng-app="nodeapp">
+        <table>
+            <c:NodeHeader />
+        </table>
+        <table>
+            <c:NodeKeyContacts />
+            <c:NodeMention />
+            <c:RecentNews />
+        </table>
+    </div>
+
+    <!-- We need to specify fields we use in controller -->
+    <apex:outputText value="{!opportunity.Account.Name}" rendered="false"/>
+    <apex:outputText value="{!opportunity.Account.Website}" rendered="false"/>
+    <apex:outputText value="{!opportunity.Account.OwnerId}" rendered="false"/>
+    <apex:outputText value="{!opportunity.OwnerId}" rendered="false"/>
+    <apex:outputText value="{!opportunity.nde__You_Should_Mention__c}" rendered="false"/>
+    <apex:outputText value="{!opportunity.nde__Node_Internal__c}" rendered="false"/>
+    <apex:outputText value="{!opportunity.nde__Node_Technologies_Found__c}" rendered="false"/>
+    <apex:outputText value="{!opportunity.nde__Node_Priority__c}" rendered="false"/>
+    <apex:outputText value="{!opportunity.nde__Node_Priority_Formula__c}" rendered="false"/>
+    <apex:outputText value="{!opportunity.nde__Node_Generated_Formula__c}" rendered="false"/>
+    <apex:outputText value="{!opportunity.nde__Node_Generated__c}" rendered="false"/>
+    <apex:outputText value="{!opportunity.nde__Node_Context__c}" rendered="false"/>
+
+</apex:page>

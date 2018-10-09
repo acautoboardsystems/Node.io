@@ -1,0 +1,5 @@
+{!Opportunity.OwnerFirstName},
+
+Please update the meeting status for your call on {!Opportunity.Initial_Meeting_Date__c} that was scheduled with {!Opportunity.Account}.
+
+Thank you

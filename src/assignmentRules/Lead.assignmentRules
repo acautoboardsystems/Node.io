@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Round Robin Lead to ADR</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>allison@node.io</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>1 AND 2</booleanFilter>
+            <criteriaItems>
+                <field>Lead.Round_Robin_ID__c</field>
+                <operation>equals</operation>
+                <value>1</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.CreatedById</field>
+                <operation>equals</operation>
+                <value>Falon Fatemi,Alex Gonzalez</value>
+            </criteriaItems>
+            <template>unfiled$public/LeadsNewassignmentnotification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>joe@node.io</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Round_Robin_ID__c</field>
+                <operation>equals</operation>
+                <value>2</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.CreatedById</field>
+                <operation>equals</operation>
+                <value>Falon Fatemi,Alex Gonzalez</value>
+            </criteriaItems>
+            <template>unfiled$public/LeadsNewassignmentnotification</template>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

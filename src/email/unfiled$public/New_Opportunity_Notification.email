@@ -1,0 +1,5 @@
+Hi {!Opportunity.OwnerFirstName},
+
+You have a new Opportunity created by {!Opportunity.Account_Development_Owner__c} for {!Opportunity.Account}.
+
+More detail here: {!Opportunity.Link}

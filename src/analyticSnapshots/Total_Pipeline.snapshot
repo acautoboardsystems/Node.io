@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupColumn>STAGE_NAME</groupColumn>
+    <mappings>
+        <sourceField>JobName</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Opportunity_Snapshot__c.Name</targetField>
+    </mappings>
+    <mappings>
+        <aggregateType>Sum</aggregateType>
+        <sourceField>AMOUNT</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>Opportunity_Snapshot__c.Sum_of_Amount__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>STAGE_NAME</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Opportunity_Snapshot__c.Stage__c</targetField>
+    </mappings>
+    <name>Total Pipeline</name>
+    <runningUser>greg@node.io</runningUser>
+    <sourceReport>Sales_Exec_Reports/Total_Open_Pipeline</sourceReport>
+    <targetObject>Opportunity_Snapshot__c</targetObject>
+</AnalyticSnapshot>

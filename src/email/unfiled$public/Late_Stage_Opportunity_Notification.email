@@ -1,0 +1,8 @@
+An Opportunity for {!Opportunity.Account} has made it to late stage!
+
+AE Owner: {!Opportunity.OwnerFullName}
+ADR Owner: {!Opportunity.Account_Development_Owner__c}
+Amount: {!Opportunity.Amount}
+Stage: {!Opportunity.StageName}
+Estimated Close Date: {!Opportunity.CloseDate}
+More Detail Here: {!Opportunity.Link}

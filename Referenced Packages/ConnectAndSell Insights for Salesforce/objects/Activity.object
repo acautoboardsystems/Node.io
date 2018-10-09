@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Attempt_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>CAS Attempt types</description>
+        <externalId>false</externalId>
+        <label>Attempt Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CASDialerAttempt</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CASDialerConversation</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CASLightingAttempt</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CASLightningConversation</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CallType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CAS Call Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CASLightning</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CASDialer</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CASAttempt</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DispositionType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Disposition Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Positive</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Negative</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not Reached</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Disposition__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Disposition</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Busy, Call Back Later</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Call Back</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Interest, Call Back Later</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Meeting Scheduled</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Interest, Send Information</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Referral</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Incorrect Contact, No Referral</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Interest, No Reason Given</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Interest, Reason Given</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem Connect</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not Reached</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Direct Number</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Fax Tone</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gatekeeper Block - Rem</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not Available</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pitcher Busy</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Research Error.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Voicemail</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>VM Dropped-Active</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Problem</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Personleft- Rem</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Wrong Number-Rem</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Do Not Call</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Incomplete Record</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Target in Different Location</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bad Number</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Answer</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ListCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>List Category</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ListName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>List Name</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Meetings_Scheduled__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value is 1 if disposition is &quot;Meeting Scheduled&quot;, otherwise value is 0.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field allows us to sum the number of meetings schedule per total conversations.</inlineHelpText>
+        <label>Meetings Scheduled</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TalkCost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Talk Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TalkTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Talk Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WaitCost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Wait Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>WaitTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Wait Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WrapCost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Wrap Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>WrapTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Wrap Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

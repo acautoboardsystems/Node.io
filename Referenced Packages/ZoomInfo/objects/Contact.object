@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ZoomInfo_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ZoomInfo Email address for the Contact record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ZoomInfo Email address for the Contact record.</inlineHelpText>
+        <label>ZoomInfo Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ZoomInfo_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ZoomInfo Phone for the Contact record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ZoomInfo Phone for the Contact record.</inlineHelpText>
+        <label>ZoomInfo Phone</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zoom_id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ZoomInfo person id, if the data on this object has ever been imported from the ZIDB.
+Stored as Long on Solr.</description>
+        <externalId>false</externalId>
+        <label>ZoomInfo ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zoom_lastupdated__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Last updated from ZoomInfo timestamp</description>
+        <externalId>false</externalId>
+        <label>ZoomInfo Last Updated</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+</CustomObject>

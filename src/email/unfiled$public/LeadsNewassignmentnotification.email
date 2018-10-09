@@ -1,0 +1,10 @@
+*** NEW LEAD ASSIGNMENT NOTIFICATION ***  
+
+Is Part of Existing Account? {!Lead.nde__Node_Existing_Account__c}
+
+The following lead has been assigned to you.  
+Company:  {!Lead.Company} 
+Lead Name:  {!Lead.Name}  
+Lead Email: {!Lead.Email}
+
+Click on the link to access the lead directly:  {!Lead.Link}

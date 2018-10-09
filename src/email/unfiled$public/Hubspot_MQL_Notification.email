@@ -1,0 +1,16 @@
+*** NEW MARKETING QUALIFIED CONTACT *** 
+
+The following contact has taken action(s) to become Marketing Qualified. 
+- Both Account Owner and Account Development should review the Hubspot Intelligence section to see what actions were taken that led to this status 
+- Account Development Owner should be default responder, unless out of office or no longer employed with company or otherwise decided upon by the Account Team
+
+Details below:
+
+Account Owner: {!Account.OwnerFullName}
+Account Development Owner: {!Account.Account_Development_Owner__c}
+Account Name: {!Account.Name}
+Account Link: {!Account.Link}
+
+Contact Name: {!Contact.Name}
+Contact Email: {!Contact.Email}
+Contact SFDC Link: {!Contact.Link}

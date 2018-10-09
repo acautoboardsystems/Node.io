@@ -1,0 +1,3 @@
+Node Management,
+
+{!Account.OwnerFirstName} pipeline has {!User.AccountsCount__c} accounts in their pipeline.
